@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => env('APP_NAME', 'Akaunting'),
+    'name' => env('APP_NAME', 'Digitcode'),
 
     'installed' => env('APP_INSTALLED', false),
 

@@ -94,7 +94,7 @@
                             @if (is_object($user->picture))
                                 <img src="{{ Storage::url($user->picture->id) }}" class="rounded-circle image-style user-img" alt="{{ $user->name }}"/>
                             @else
-                                <img src="{{ asset('public/img/user.svg') }}" class="user-img" alt="{{ $user->name }}"/>
+                                <img src="{{ asset('img/user.svg') }}" class="user-img" alt="{{ $user->name }}"/>
                             @endif
                             @if (!empty($user->name))
                                 <div class="media-body ml-2">

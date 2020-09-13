@@ -7,20 +7,20 @@
     <title>{{ config('app.name') }}</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('public/img/favicon.ico') }}" type="image/png">
+    <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/png">
 
     <!-- Font -->
-    <link rel="stylesheet" href="{{ asset('public/vendor/opensans/css/opensans.css?v=' . version('short')) }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('vendor/opensans/css/opensans.css?v=' . version('short')) }}" type="text/css">
 
     <!-- Icons -->
-    <link rel="stylesheet" href="{{ asset('public/vendor/nucleo/css/nucleo.css?v=' . version('short')) }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('public/vendor/fontawesome/css/all.min.css?v=' . version('short')) }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('vendor/nucleo/css/nucleo.css?v=' . version('short')) }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('vendor/fontawesome/css/all.min.css?v=' . version('short')) }}" type="text/css">
 
     <!-- Css -->
-    <link rel="stylesheet" href="{{ asset('public/css/argon.css?v=' . version('short')) }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('public/css/akaunting-color.css?v=' . version('short')) }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('public/css/custom.css?v=' . version('short')) }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('public/css/element.css?v=' . version('short')) }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/argon.css?v=' . version('short')) }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/akaunting-color.css?v=' . version('short')) }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/custom.css?v=' . version('short')) }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/element.css?v=' . version('short')) }}" type="text/css">
 
     @stack('css')
 

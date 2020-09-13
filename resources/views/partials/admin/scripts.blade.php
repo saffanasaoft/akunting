@@ -1,15 +1,15 @@
     <!-- Core -->
-    <script src="{{ asset('public/vendor/jquery/dist/jquery.min.js') }}"></script>
-    <script src="{{ asset('public/vendor/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('public/vendor/js-cookie/js.cookie.js') }}"></script>
+    <script src="{{ asset('vendor/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('vendor/js-cookie/js.cookie.js') }}"></script>
 
     @stack('scripts_start')
 
-    <script src="{{ asset('public/js/common/search.js?v=' . version('short')) }}"></script>
+    <script src="{{ asset('js/common/search.js?v=' . version('short')) }}"></script>
 
     @stack('charts')
 
-    <script src="{{ asset('public/vendor/chart.js/dist/Chart.min.js') }}"></script>
+    <script src="{{ asset('vendor/chart.js/dist/Chart.min.js') }}"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.0.2/echarts-en.min.js" charset=utf-8></script>
 

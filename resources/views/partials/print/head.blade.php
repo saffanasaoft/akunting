@@ -9,10 +9,10 @@
     <title>@yield('title') - @setting('company.name')</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('public/img/favicon.ico') }}" type="image/png">
+    <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/png">
 
     <!-- Css -->
-    <link rel="stylesheet" href="{{ asset('public/css/print.css?v=' . version('short')) }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/print.css?v=' . version('short')) }}" type="text/css">
 
     <style type="text/css">
         * {
